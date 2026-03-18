@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.env
+.venv/
+venv/
+
+# App data
+config.json
+state_urls.json
+queue.json
+stats.json
+app.log
+reports/
+
+# OS
+.DS_Store
+Thumbs.db
