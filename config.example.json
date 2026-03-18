@@ -1,0 +1,35 @@
+{
+  "domain": "example.com",
+
+  "blogger": {
+    "latest_limit": 20
+  },
+
+  "hosting": {
+    "latest_limit": 20,
+    "indexnow_enabled": false,
+    "indexnow_key": "",
+    "indexnow_key_location": ""
+  },
+
+  "telegram": {
+    "enabled": false,
+    "bot_token": "",
+    "chat_id": "",
+    "mode": "all"
+  },
+
+  "engine": {
+    "mode": "balanced",
+    "max_urls_per_run": 50,
+    "retry_schedule_seconds": [3600, 21600, 86400],
+    "score_threshold_submit": 40,
+    "score_threshold_retry": 20,
+    "index_check_enabled": true
+  },
+
+  "retry": {
+    "max_retries": 3,
+    "delay": 1.5
+  }
+}
